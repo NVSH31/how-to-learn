@@ -3,33 +3,236 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
-    <div class="header">
-
-    </div>
+    <header class="header">
+      <div class="logo logo_place_header"></div>
+      <h1 class="header__title line_height_96px font-size_102px font-weight_600">Научиться учиться</h1>
+      <h3 class="header__subtitle line_height_25px font-size_18px font-weight_normal">Какие современные и эффективные подходы
+        к обучению вы можете использовать в своей жизни?
+        <a class="header__link link-color_hover" href="https://code.s3.yandex.net/web-developer/final-projects/project-1/index.html#techniques" target="_blank">
+          Узнать →
+        </a>
+      </h3>
+      <img alt="Тут двоечник" src="./images/two_again.png" class="header__main-illustration">
+      <div class="header__square-pic"></div>
+    </header>
     <div class="content">
-      <div class="description">
-
-      </div>
-      <div class="digits">
-
-      </div>
-      <div class="feynmann">
-
-      </div>
-      <div class="kaufman">
-
-      </div>
-
+      <section class="description">
+        <div class="two-columns">
+          <h2 class="two-columns__brief line_height_1-2 font-size_18px font-weight_normal">
+            Главные проблемы в обучении
+          </h2>
+          <div class="two-columns__main-text line_height_34px font-size_24px font-weight_normal">
+            <p class="two-columns__paragraph">
+              Ни в школе, ни в институте нас не учат тому,
+              как правильно изучать материал. Мы готовимся к
+              экзаменам и учим билеты. Мы тренируемся решать
+              однообразные задачи, чтобы лучше сдать тест, но
+              часто в итоге это не дает нам реального знания.
+              Зубрежка быстро выветривается и не приносит пользы.
+            </p>
+            <p class="two-columns__paragraph">
+              <span class="two-columns__span-accent">Вывод:</span>
+               учиться тоже нужно уметь, но почему-то этому
+              мало где учат. Что с этим делать?
+            </p>
+            <p class="two-columns__paragraph">
+              Конкретные техники и упражнения помогают изменить
+              подход к обучению, сделать его эффективным и захватывающим.
+              Эти же техники применяются на примере обучения в Практикуме.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="digits">
+        <h1 class="section-title line-height_1-15 font-size_60px font-weight_600">Цифры и факты</h1>
+        <h3 class="section-subtitle line_height_34px font-size_24px font-weight_normal">Про учебу и мозг</h3>
+        <div class="table">
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">86 миллиардов</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Число нейронов в мозге человека
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">2.1 миллиарда</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Число нуждающихся в повышении квалификации
+            </p>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Всемирный Банк, 2017
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">1000 терабайт</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Объём памяти человека
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">500 триллионов</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Число ответственных за обучение нервных синапсов у взрослого человека
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">420 миллионов</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
+            </p>
+            <p class="table__text">
+              Всемирный Банк, 2017
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">17–20 лет</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Пик обучаемости
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">1885 год</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Открытие кривой забывания
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_digits">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">1889 год</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Открытие условного рефлекса
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="feynman">
+        <h1 class="feynman__title line-height_1-15 font-size_120px font-weight_600">Метод Фейнмана</h1>
+        <h3 class="feynman__subtitle line_height_51px font-size_36px font-weight_normal">Выучить и не забыть.</h3>
+        <a class="feynman__link line_height_51px font-size_36px font-weight_normal link-color_hover" href="https://lifehacker.ru/metod-fejnmana/" target="_blank">
+          Подробнее →
+        </a>
+        <img src="./images/feynman.png" alt="Feynman" class="feynman__image">
+      </section>
+      <section class="kaufman">
+        <h1 class="section-title line-height_1-15 font-size_60px font-weight_600 section-title_place_kaufman">Принципы обучения</h1>
+        <h3 class="section-subtitle line_height_34px font-size_24px font-weight_normal section-subtitle_place_kaufman">от Джоша Кауфмана</h3>
+        <div class="table">
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">1</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Выберите привлекательный проект.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">2</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Сосредоточьтесь на каком-то одном навыке.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">3</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Определите целевой уровень мастерства.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">4</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Разбейте навык на элементы.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">5</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Приготовьте всё необходимое для занятий.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">6</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Устраните препятствия для занятий.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">7</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Выделите специальное время для занятий.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">8</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Создайте быстрые петли обратной связи.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">9</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
+          </div>
+          <div class="table__cell table__cell_place_kaufman">
+            <h3 class="table__heading line-height_1-15 font-size_24px font-weight_600">10</h3>
+            <p class="table__text line_height_1-2 font-size_18px font-weight_normal">
+              Уделяйте внимание количеству и скорости.
+            </p>
+          </div>
+        </div>
+        <div class="triangle"></div>
+      </section>
     </div>
-    <div class="footer">
-
-    </div>
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column content_copyright">
+          <div class="logo logo_place_footer"></div>
+          <div class="footer__author line_height_25px font-size_18px font-weight_normal">&copy; Наталия Шпак</div>
+        </div>
+        <div class="footer__column content_info">
+          <h3 class="footer__column-heading line_height_30px font-size_18px font-weight_600">О Практикуме</h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link line_height_30px font-size_18px font-weight_normal" href="https://practicum.yandex.ru/" target="_blank">
+                Главная
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link line_height_30px font-size_18px font-weight_normal" href="#">Концепция</a>
+            </li>
+            <li>
+              <a class="footer__column-link line_height_30px font-size_18px font-weight_normal" href="#">Наставники</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column content_social">
+          <h3 class="footer__column-heading line_height_30px font-size_18px font-weight_600">Соцсети</h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link line_height_30px font-size_18px font-weight_normal" href="#" target="_blank">
+                <img src="./images/facebook_color_white.svg" alt="Facebook" class="footer__social-icon">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link line_height_30px font-size_18px font-weight_normal" href="https://vk.com/yandex.practicum" target="_blank">
+                <img src="./images/vk_color_white.svg" alt="VK" class="footer__social-icon">
+                ВКонтакте
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link line_height_30px font-size_18px font-weight_normal" href="#" target="_blank">
+                <img src="./images/instagram_color_white.svg" alt="Instagramm" class="footer__social-icon">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
