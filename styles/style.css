@@ -59,7 +59,7 @@
   color: #2f80ed;
   text-decoration: none;
 }
-.header__link_color_hover:hover {
+.header__link:hover {
   color: #8aa9d3;
 }
 .header__main-illustration {
@@ -224,7 +224,7 @@
   font-weight: normal;
   z-index: 3;
 }
-.feynman__link_color_hover:hover {
+.feynman__link:hover {
   color: #8aa9d3;
 }
 .feynman__image {
@@ -264,6 +264,12 @@
   margin-top: 80px;
   width: 200px;
   z-index: 4;
+}
+.table__heading_theme_dark {
+  color: white;
+}
+.table__text_theme_dark {
+  color: white;
 }
 .kaufman__triangle {
   position: absolute;
